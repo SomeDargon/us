@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+    <definition name="layout" template="/WEB-INF/layouts/layout.jsp">
+        <put-attribute name="title" value="客户关系管理系统"/>
+
+    </definition>
+
+    <definition name="simpleLayout" template="/WEB-INF/layouts/layout-simple.jsp">
+        <put-attribute name="header" value=""/>
+        <put-attribute name="content" value=""/>
+    </definition>
+
+    <definition name="paperLayout" template="/WEB-INF/layouts/layout-paper.jsp">
+        <put-attribute name="header" value=""/>
+        <put-attribute name="content" value=""/>
+    </definition>
+
+    <definition name="adminLayout" template="/WEB-INF/layouts/main/layout-admin.jsp">
+        <put-attribute name="header" value="/WEB-INF/views/admin/header.jsp"/>
+        <put-attribute name="l-content" value="/WEB-INF/views/admin/sider.jsp"/>
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/desktop-manager.jsp"/>
+    </definition>
+
+    
+
+    <!-- error settings -->
+    <definition name="error-generic" extends="simpleLayout">
+        <put-attribute name="content" value="/WEB-INF/views/error/generic.jsp"/>
+    </definition>
+
+
+
+
+    <!-- account settings -->
+
+    <definition name="login" extends="simpleLayout">
+        <put-attribute name="content" value="/WEB-INF/views/account/login.jsp"/>
+    </definition>
+
+    <!-- admin settings -->
+    <definition name="admin" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/desktop-manager.jsp"/>
+    </definition>
+    <definition name="admin-user-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/user-manage.jsp"/>
+    </definition>
+    <definition name="admin-user-form" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/user-form.jsp"/>
+    </definition>
+    <definition name="admin-profile" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/profile.jsp"/>
+    </definition>
+    <definition name="admin-dict-form" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/dict-form.jsp"/>
+    </definition>
+    <definition name="admin-dict-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/dict-manage.jsp"/>
+    </definition>
+    <definition name="admin-advertise-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/advertise-manage.jsp"/>
+    </definition>
+    <definition name="admin-advertise-form" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/advertise-form.jsp"/>
+    </definition>
+    <definition name="admin-relation-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/relation-manage.jsp"/>
+    </definition>
+    <definition name="admin-relation-form" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/relation-form.jsp"/>
+    </definition>
+    <definition name="admin-record-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/record-manage.jsp"/>
+    </definition>
+    <definition name="admin-schedule-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/schedule-manage-page.jsp"/>
+    </definition>
+    <definition name="admin-schedule-form" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/schedule-form-page.jsp"/>
+    </definition>
+    <definition name="admin-log-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/log-manage.jsp"/>
+    </definition>
+
+    <definition name="admin-task-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/task-manage.jsp"/>
+    </definition>
+
+    <definition name="admin-task-return" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/task-return.jsp"/>
+    </definition>
+    <definition name="admin-task-start" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/task-start.jsp"/>
+    </definition>
+    <definition name="admin-process-deal" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/task-process-deal.jsp"/>
+    </definition>
+    <definition name="admin-task-finish" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/task-finish.jsp"/>
+    </definition>
+
+    <definition name="admin-desktop-manage" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/desktop-manager.jsp"/>
+    </definition>
+    <definition name="admin-profile-avatar" extends="adminLayout">
+        <put-attribute name="r-content" value="/WEB-INF/views/admin/profile-avatar.jsp"/>
+    </definition>
+
+</tiles-definitions>

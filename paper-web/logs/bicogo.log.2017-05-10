@@ -1,0 +1,174 @@
+2017-05-09 10:56:17,380 [main] INFO  [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-05-09 10:56:17,392 [main] INFO  [org.hibernate.Version] - HHH000412: Hibernate Core {4.2.8.Final}
+2017-05-09 10:56:17,396 [main] INFO  [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2017-05-09 10:56:17,398 [main] INFO  [org.hibernate.cfg.Environment] - HHH000021: Bytecode provider name : javassist
+2017-05-09 10:56:17,421 [main] INFO  [org.hibernate.ejb.Ejb3Configuration] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-05-09 10:56:17,563 [main] INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-05-09 10:56:17,957 [main] INFO  [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-05-09 10:56:18,207 [main] INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-05-09 10:56:18,217 [main] INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - HHH000397: Using ASTQueryTranslatorFactory
+2017-05-09 10:56:18,357 [main] INFO  [org.hibernate.cache.spi.UpdateTimestampsCache] - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-05-09 10:56:18,361 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-05-09 10:56:18,412 [main] INFO  [org.hibernate.cache.internal.StandardQueryCache] - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-05-09 10:56:18,413 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-05-09 10:56:18,464 [main] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 4.3.1.Final
+2017-05-09 10:56:18,808 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.User]; using defaults.
+2017-05-09 10:56:18,968 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Role]; using defaults.
+2017-05-09 10:56:18,975 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.post.Advertise]; using defaults.
+2017-05-09 10:56:18,984 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Log]; using defaults.
+2017-05-09 10:56:18,995 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Dict]; using defaults.
+2017-05-09 10:56:19,009 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.FlowInfo]; using defaults.
+2017-05-09 10:56:19,024 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Attachment]; using defaults.
+2017-05-09 10:56:19,053 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance]; using defaults.
+2017-05-09 10:56:19,088 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance.flowInfoList]; using defaults.
+2017-05-09 11:15:10,645 [main] INFO  [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-05-09 11:15:10,653 [main] INFO  [org.hibernate.Version] - HHH000412: Hibernate Core {4.2.8.Final}
+2017-05-09 11:15:10,656 [main] INFO  [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2017-05-09 11:15:10,658 [main] INFO  [org.hibernate.cfg.Environment] - HHH000021: Bytecode provider name : javassist
+2017-05-09 11:15:10,680 [main] INFO  [org.hibernate.ejb.Ejb3Configuration] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-05-09 11:15:10,822 [main] INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-05-09 11:15:11,143 [main] INFO  [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-05-09 11:15:11,369 [main] INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-05-09 11:15:11,377 [main] INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - HHH000397: Using ASTQueryTranslatorFactory
+2017-05-09 11:15:11,495 [main] INFO  [org.hibernate.cache.spi.UpdateTimestampsCache] - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-05-09 11:15:11,498 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-05-09 11:15:11,537 [main] INFO  [org.hibernate.cache.internal.StandardQueryCache] - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-05-09 11:15:11,537 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-05-09 11:15:11,577 [main] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 4.3.1.Final
+2017-05-09 11:15:11,842 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.User]; using defaults.
+2017-05-09 11:15:11,963 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Role]; using defaults.
+2017-05-09 11:15:11,973 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.post.Advertise]; using defaults.
+2017-05-09 11:15:11,985 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Log]; using defaults.
+2017-05-09 11:15:11,994 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Dict]; using defaults.
+2017-05-09 11:15:12,008 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.FlowInfo]; using defaults.
+2017-05-09 11:15:12,018 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Attachment]; using defaults.
+2017-05-09 11:15:12,041 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance]; using defaults.
+2017-05-09 11:15:12,058 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance.flowInfoList]; using defaults.
+2017-05-09 11:15:53,664 [qtp1239316567-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 56.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-09 11:15:53,668 [qtp1239316567-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 74.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-09 11:15:53,841 [qtp1239316567-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 45.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-09 11:15:53,841 [qtp1239316567-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 58.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-09 11:15:53,842 [qtp1239316567-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 71.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-09 11:15:54,877 [qtp1239316567-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 48.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-09 11:16:50,148 [qtp1239316567-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 74.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-09 11:16:50,154 [qtp1239316567-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 57.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 08:26:42,514 [main] INFO  [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-05-10 08:26:42,525 [main] INFO  [org.hibernate.Version] - HHH000412: Hibernate Core {4.2.8.Final}
+2017-05-10 08:26:42,530 [main] INFO  [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2017-05-10 08:26:42,532 [main] INFO  [org.hibernate.cfg.Environment] - HHH000021: Bytecode provider name : javassist
+2017-05-10 08:26:42,576 [main] INFO  [org.hibernate.ejb.Ejb3Configuration] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-05-10 08:26:42,808 [main] INFO  [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-05-10 08:26:42,832 [main] INFO  [org.hibernate.Version] - HHH000412: Hibernate Core {4.2.8.Final}
+2017-05-10 08:26:42,844 [main] INFO  [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2017-05-10 08:26:42,845 [main] INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-05-10 08:26:42,846 [main] INFO  [org.hibernate.cfg.Environment] - HHH000021: Bytecode provider name : javassist
+2017-05-10 08:26:42,891 [main] INFO  [org.hibernate.ejb.Ejb3Configuration] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-05-10 08:26:43,213 [main] INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-05-10 08:26:43,440 [main] INFO  [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-05-10 08:26:43,810 [main] INFO  [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-05-10 08:26:43,822 [main] INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-05-10 08:26:43,829 [main] INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - HHH000397: Using ASTQueryTranslatorFactory
+2017-05-10 08:26:43,956 [main] INFO  [org.hibernate.cache.spi.UpdateTimestampsCache] - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-05-10 08:26:43,960 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-05-10 08:26:44,004 [main] INFO  [org.hibernate.cache.internal.StandardQueryCache] - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-05-10 08:26:44,005 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-05-10 08:26:44,091 [main] INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-05-10 08:26:44,098 [main] INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - HHH000397: Using ASTQueryTranslatorFactory
+2017-05-10 08:26:44,102 [main] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 4.3.1.Final
+2017-05-10 08:26:44,225 [main] INFO  [org.hibernate.cache.spi.UpdateTimestampsCache] - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-05-10 08:26:44,229 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-05-10 08:26:44,354 [main] INFO  [org.hibernate.cache.internal.StandardQueryCache] - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-05-10 08:26:44,355 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-05-10 08:26:44,419 [main] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 4.3.1.Final
+2017-05-10 08:26:44,462 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.User]; using defaults.
+2017-05-10 08:26:44,566 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Role]; using defaults.
+2017-05-10 08:26:44,578 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.post.Advertise]; using defaults.
+2017-05-10 08:26:44,591 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Log]; using defaults.
+2017-05-10 08:26:44,601 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Dict]; using defaults.
+2017-05-10 08:26:44,623 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.FlowInfo]; using defaults.
+2017-05-10 08:26:44,638 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Attachment]; using defaults.
+2017-05-10 08:26:44,714 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance]; using defaults.
+2017-05-10 08:26:44,745 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance.flowInfoList]; using defaults.
+2017-05-10 08:26:44,824 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.User]; using defaults.
+2017-05-10 08:26:45,010 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Role]; using defaults.
+2017-05-10 08:26:45,019 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.post.Advertise]; using defaults.
+2017-05-10 08:26:45,050 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Log]; using defaults.
+2017-05-10 08:26:45,062 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Dict]; using defaults.
+2017-05-10 08:26:45,078 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.FlowInfo]; using defaults.
+2017-05-10 08:26:45,089 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Attachment]; using defaults.
+2017-05-10 08:26:45,116 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance]; using defaults.
+2017-05-10 08:26:45,133 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance.flowInfoList]; using defaults.
+2017-05-10 08:28:57,674 [qtp1459695149-32] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 56.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 08:28:57,676 [qtp1459695149-32] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 74.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 08:28:57,832 [qtp1459695149-28] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 45.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 08:28:57,833 [qtp1459695149-28] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 58.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 08:28:57,833 [qtp1459695149-28] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 71.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 08:29:04,629 [qtp1459695149-32] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 48.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 08:35:32,529 [qtp1459695149-29] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 49.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 08:35:32,529 [qtp1459695149-29] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 62.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 09:39:30,535 [main] INFO  [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-05-10 09:39:30,552 [main] INFO  [org.hibernate.Version] - HHH000412: Hibernate Core {4.2.8.Final}
+2017-05-10 09:39:30,562 [main] INFO  [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2017-05-10 09:39:30,565 [main] INFO  [org.hibernate.cfg.Environment] - HHH000021: Bytecode provider name : javassist
+2017-05-10 09:39:30,657 [main] INFO  [org.hibernate.ejb.Ejb3Configuration] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-05-10 09:39:31,047 [main] INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-05-10 09:39:31,727 [main] INFO  [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-05-10 09:39:32,377 [main] INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-05-10 09:39:32,389 [main] INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - HHH000397: Using ASTQueryTranslatorFactory
+2017-05-10 09:39:32,791 [main] INFO  [org.hibernate.cache.spi.UpdateTimestampsCache] - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-05-10 09:39:32,803 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-05-10 09:39:32,924 [main] INFO  [org.hibernate.cache.internal.StandardQueryCache] - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-05-10 09:39:32,925 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-05-10 09:39:33,065 [main] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 4.3.1.Final
+2017-05-10 09:39:33,736 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.User]; using defaults.
+2017-05-10 09:39:34,091 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Role]; using defaults.
+2017-05-10 09:39:34,106 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.post.Advertise]; using defaults.
+2017-05-10 09:39:34,127 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Log]; using defaults.
+2017-05-10 09:39:34,148 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Dict]; using defaults.
+2017-05-10 09:39:34,179 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.FlowInfo]; using defaults.
+2017-05-10 09:39:34,210 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Attachment]; using defaults.
+2017-05-10 09:39:34,271 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance]; using defaults.
+2017-05-10 09:39:34,293 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance.flowInfoList]; using defaults.
+2017-05-10 09:41:49,326 [main] INFO  [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-05-10 09:41:49,338 [main] INFO  [org.hibernate.Version] - HHH000412: Hibernate Core {4.2.8.Final}
+2017-05-10 09:41:49,346 [main] INFO  [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+2017-05-10 09:41:49,348 [main] INFO  [org.hibernate.cfg.Environment] - HHH000021: Bytecode provider name : javassist
+2017-05-10 09:41:49,397 [main] INFO  [org.hibernate.ejb.Ejb3Configuration] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-05-10 09:41:49,709 [main] INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-05-10 09:41:50,407 [main] INFO  [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-05-10 09:41:50,950 [main] INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-05-10 09:41:50,962 [main] INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - HHH000397: Using ASTQueryTranslatorFactory
+2017-05-10 09:41:51,245 [main] INFO  [org.hibernate.cache.spi.UpdateTimestampsCache] - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-05-10 09:41:51,251 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-05-10 09:41:51,342 [main] INFO  [org.hibernate.cache.internal.StandardQueryCache] - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-05-10 09:41:51,343 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-05-10 09:41:51,417 [main] INFO  [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 4.3.1.Final
+2017-05-10 09:41:52,018 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.User]; using defaults.
+2017-05-10 09:41:52,209 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Role]; using defaults.
+2017-05-10 09:41:52,225 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.post.Advertise]; using defaults.
+2017-05-10 09:41:52,256 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Log]; using defaults.
+2017-05-10 09:41:52,295 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Dict]; using defaults.
+2017-05-10 09:41:52,328 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.FlowInfo]; using defaults.
+2017-05-10 09:41:52,377 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.system.Attachment]; using defaults.
+2017-05-10 09:41:52,439 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance]; using defaults.
+2017-05-10 09:41:52,526 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [com.thon.entity.audit.TaskInstance.flowInfoList]; using defaults.
+2017-05-10 09:42:19,762 [qtp1008384771-31] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 56.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 09:42:19,764 [qtp1008384771-31] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 74.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 09:42:20,013 [qtp1008384771-33] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 45.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 09:42:20,014 [qtp1008384771-33] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 58.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 09:42:20,014 [qtp1008384771-33] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 71.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 09:42:31,161 [qtp1008384771-31] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 48.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 16:20:17,368 [qtp1008384771-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 74.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-05-10 16:20:17,380 [qtp1008384771-30] WARN  [org.hibernate.hql.internal.ast.HqlSqlWalker] - [DEPRECATION] Encountered positional parameter near line 1, column 57.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.

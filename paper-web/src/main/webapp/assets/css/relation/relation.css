@@ -1,0 +1,89 @@
+/**个人详情页**/
+
+.person-ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    margin-left: 15px;
+}
+.person-ul li{
+    padding-top: 5px;
+    padding-bottom: 40px;
+    display: inline;
+    line-height: 130%;
+}
+.person-ul .person-li-left{
+    width: 45%;
+    max-height:20%;
+    height: 35px;
+    float: left;
+}
+.person-ul .person-li-right{
+    width: 45%;
+    max-height:20%;
+    height: 35px;
+    float: right;
+}
+.person-ul  .title-size{
+    width: 150px;
+}
+
+.person-ul  .span-point{
+    margin-right: 10px;
+}
+.person-ul  .span-left{
+    float: left;
+}
+.person-ul  .span-right{
+    float: right;
+    margin-right: 5px;
+}
+.person-ul .person-title{
+    float:left;
+    height: 35px;
+    line-height: 35px;
+    width: 80px;
+}
+.person-ul .person-content{
+    float:left;
+}
+
+.person-ul  .btn-size{
+    width: 150px;
+    height: 35px;
+}
+.person-ul .person-li{
+    width: 98%;
+    float: left;
+    padding-bottom: 5px!important;
+}
+.person-ul .person-line{
+    width: 84%;
+}
+.person-ul .person-line input{
+    width: 100%;
+}
+
+.person-ul .person-li .btn-height{
+    height: 100px;
+}
+
+.table-center{
+    text-align: center;
+}
+.btn-default1 {
+    color: #333;
+    background-color: #fff;
+}
+.btn-default2{
+    border-style:solid;
+    border-top: thick  #fff ;
+}
+.col-log-12-padding{
+    padding-right:0px;
+    padding-left:0px;
+}
+.ibox-bottom{
+    margin-bottom:0px;
+}
+.label_1{display: block;margin: 10px 0;padding: 0 10px 0 0;}

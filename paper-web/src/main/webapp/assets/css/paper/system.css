@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, span {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei, '宋体', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+body {
+    background-color: #eee;
+}
+.tou{
+    border-bottom: 1px solid #999;
+}
+
+.logo span{
+    font-size:24px ;
+    position: relative;
+    top:13px;
+}
+
+.search{
+    margin-top: -40px;
+    margin-right: 40px;
+}
+
+
+
+
+.side-tou {
+    height: 200px;
+    background-color:#ff8859 ;
+    padding-top: 20px ;
+    margin-bottom: 10px;
+}
+.side-tou .side-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border:3px solid #fff;
+    margin: 0 auto;
+
+}
+.side-tou .name{
+    font-size:18px ;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.side-tou li span{
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.footer-ul li{
+    width: 32%;
+}
+.footer-ul .tou {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.footer-ul p{
+    font-size: 24px;
+    color: #ffeabe;
+}
+.footer-ul .center {
+    border-left: 1px solid #ffeabe;
+    border-right: 1px solid #ffeabe;
+}
+
+.sidebar-menu {
+    margin-bottom: 0;
+    background-color:#ffece4;
+}
+.sidebar-menu li {
+    height: 36px;
+    text-align: center;
+    line-height: 45px;
+    line-height: 36px;
+}
+.sidebar-menu .sub-menu {
+    font-size:18px ;
+    background-color: #ff8859;
+
+}
+.sub li {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+
+}
+.sub li a{
+    display: block;
+}
+.sub li:hover,.sub .active{
+    background-color: #ffbea2;
+}
+.sidebar-menu .sub-menu a{
+    color:#fff;
+    text-decoration: none;
+}
+.sidebar-menu li a{
+    color:#ff8859;
+    text-decoration: none;
+}
+.sidebar-menu li a:hover{
+}
+.side-footer {
+    padding-top: 200px;
+    background-color:#ff8859 ;
+    height:255px ;
+    color: #fff;
+}
+.sidebar-menu .sub{
+    display: block;
+}

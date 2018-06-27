@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#denglurukou {
+    position: absolute;
+    top:100px;
+    left:300px;
+}
+/*#denglurukou{width:134px;height:134px;position:relative;  }*/
+#denglurukou a{border:1px solid #FFF;background-color:#FFF;padding:6px;display:block;}
+#denglurukou a:hover{border:1px solid #f0a54a;background-color:#f0a54a;text-decoration: none;}
+#denglurukou a span{display:none; text-align:center; font-size:10px;}
+#denglurukou a:hover span{color:#FFF;display:block;background-color:#f0a54a;width:134px;position:absolute;top:110px;left:0px;line-height:25px;}
+#denglurukou a img{width:120px;height:120px;}
+
+#footer li{
+    margin: 0 35px;
+}
+#footer li a {
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+}
